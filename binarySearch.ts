@@ -28,28 +28,9 @@ for (let i = firstNumberIndex; i <= lastNumberIndex; i++) {
     // middleNumberIndex =( firstNumberIndex + lastNumberIndex )/ 2;
   }
 }
-// let numberFound: number;
-// let step :number = 0
-// for (let i = firstNumber; i < lastNumber; i++) {
-//   let middleNumber: number = (firstNumber + lastNumber) / 2;
-//   if (targetNumber === middleNumber) {
-//     numberFound = middleNumber;
-//     console.log(numberFound);
-//     step++
-//     break;
-//   } else if (targetNumber > middleNumber) {
-//     firstNumber = middleNumber;
-//     middleNumber = (firstNumber + lastNumber) / 2;
-//     step++
-//   } else {
-//     lastNumber = middleNumber;
-//     middleNumber = (firstNumber + lastNumber) / 2;
-//     step++
-//   }
-// }
-// console.log("step is", step)
 
-//Swopnils method
+
+//Swopnil's method
 let step: number = 0
 
 while (true) {
